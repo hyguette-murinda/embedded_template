@@ -9,6 +9,8 @@
 03_rearrange_data.py<br>
 04_train_model.py<br>
 05_make_predictions.py<br>
+06_ok_sign.py<br>
+07_vito.py<br>
 
 <strong>3. Details</strong><br>
 
@@ -34,6 +36,12 @@ This code trains a LBPH (Local Binary Patterns Histograms) face recognizer using
 
 05_make_predictions.py<br>
 This code utilizes a pre-trained LBPH (Local Binary Patterns Histograms) face recognizer model along with a Haar Cascade classifier for face detection. It captures frames from a webcam feed, converts them to grayscale, and detects faces. For each detected face, it predicts its identity and confidence level using the LBPH model. If the confidence level is above a threshold, it draws a rectangle around the face and displays the predicted ID along with the confidence percentage as a name tag. The process continues until the user presses 'q' to exit the loop, releasing the camera and closing all OpenCV windows.
+
+06_ok_sign.py<br>
+This code detects OK Sign
+
+07_vito.py<br>
+This code detects both face and OK Sign
 
 ++++++++++++++++
 
