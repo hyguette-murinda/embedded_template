@@ -46,3 +46,4 @@ for row in rows:
 
 # Close the database connection
 conn.close()
+ 
