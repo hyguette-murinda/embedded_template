@@ -210,3 +210,4 @@ while camera.isOpened():
 # Release the camera and close all OpenCV windows
 camera.release()
 cv2.destroyAllWindows()
+  
